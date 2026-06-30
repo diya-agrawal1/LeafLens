@@ -21,6 +21,12 @@ This project uses:
 This project does **not** use transfer learning (ResNet, EfficientNet, etc.).
 
 ## 3) Dataset format expected
+The dataset used for this project is:
+
+**New Plant Diseases Dataset (Augmented)**  
+https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
+Download the dataset from Kaggle and place it inside the `data/` directory before training the model.
 
 Put your raw dataset in:
 
@@ -81,17 +87,3 @@ Then open the local URL shown in terminal (usually `http://localhost:8501`).
 - Training curves: `reports/training_curves.png`
 - Classification report: `reports/classification_report.txt`
 - Confusion matrix: `reports/confusion_matrix.png`
-
-## 7) Suggested viva points
-
-- Why CNN for image classification?
-- Why data augmentation helps?
-- Why confusion matrix is needed beyond accuracy?
-- Overfitting vs underfitting and how dropout/augmentation helps.
-
-## 8) Team task split (group project)
-
-- Member 1: Dataset collection and cleaning
-- Member 2: Model architecture and training
-- Member 3: Evaluation + metrics + confusion matrix
-- Member 4: PPT, report, and demo integration
